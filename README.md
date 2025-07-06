@@ -37,7 +37,14 @@ This project uses the [cpal](https://crates.io/crates/cpal) (Cross-Platform Audi
 Make sure you have Rust installed, then:
 
 ```bash
+# Play all formulas, cycling every 4 seconds
 cargo run
+
+# Play a specific formula forever (1, 2, 3, or 4)
+cargo run 1
+cargo run 2
+cargo run 3
+cargo run 4
 ```
 
 The program will start playing bytebeat formulas immediately. Press Ctrl+C to stop.
